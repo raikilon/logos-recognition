@@ -1,0 +1,6 @@
+DHL
+FedEx
+Mastercard
+Paypal
+UPS
+Visa

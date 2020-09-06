@@ -1,0 +1,10 @@
+sphinx
+click
+opencv-contrib-python
+numpy
+sklearn
+scipy
+beautifulsoup4
+requests
+pyqt5
+sphinx

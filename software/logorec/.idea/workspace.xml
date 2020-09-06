@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="daf1fccc-2e8f-4074-899f-e5fd3ed9d45e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>multiple</find>
+      <find>categories</find>
+      <find>echo</find>
+      <find>self.downcase(</find>
+      <find>downcase</find>
+      <find>upcase</find>
+      <find>get_all</find>
+      <find>exception</find>
+      <find>default</find>
+      <find>train_classifier</find>
+      <find>number_of_training_images</find>
+      <find>__init__</find>
+      <find>get</find>
+      <find>changeEvent</find>
+      <find>classifier_directory</find>
+      <find>set_default_classifier</find>
+      <find>set_default_feature</find>
+      <find>Gui</find>
+      <find>Gui()</find>
+      <find>True</find>
+      <find>print</find>
+      <find>bow</find>
+      <find>randomForest</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>currentTextChanged</replace>
+      <replace>&quot;True&quot;</replace>
+      <replace>Bow</replace>
+      <replace>RandomForest</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/logorec/test.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/logorec/features/HoG.py" />
+        <option value="$PROJECT_DIR$/logorec/lib/element.py" />
+        <option value="$PROJECT_DIR$/logorec/lib/types.py" />
+        <option value="$PROJECT_DIR$/logorec/imageExtrator/testExtractor.py" />
+        <option value="$PROJECT_DIR$/logorec/imageExtrator/websiteExtractor.py" />
+        <option value="$PROJECT_DIR$/logorec/classifiers/forest.py" />
+        <option value="$PROJECT_DIR$/logorec/classifiers/tree.py" />
+        <option value="$PROJECT_DIR$/logorec/features/hog.py" />
+        <option value="$PROJECT_DIR$/logorec/imageManager/databaseManager.py" />
+        <option value="$PROJECT_DIR$/logorec/data/features/boundingbox.txt" />
+        <option value="$PROJECT_DIR$/logorec/parameters.ini" />
+        <option value="$PROJECT_DIR$/logorec/lib/classifier.py" />
+        <option value="$PROJECT_DIR$/logorec/lib/feature.py" />
+        <option value="$PROJECT_DIR$/logorec/lib/imageExtractor.py" />
+        <option value="$PROJECT_DIR$/logorec/lib/imageManager.py" />
+        <option value="$PROJECT_DIR$/logorec/terminal/__init__.py" />
+        <option value="$PROJECT_DIR$/logorec/terminal/terminal.py" />
+        <option value="$PROJECT_DIR$/logorec/__init__.py" />
+        <option value="$PROJECT_DIR$/logorec/classifiers/__init__.py" />
+        <option value="$PROJECT_DIR$/logorec/features/__init__.py" />
+        <option value="$PROJECT_DIR$/logorec/imageExtractor/__init__.py" />
+        <option value="$PROJECT_DIR$/logorec/imageManager/__init__.py" />
+        <option value="$PROJECT_DIR$/logorec/lib/__init__.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/logorec/imageExtractor/testExtractor.py" />
+        <option value="$PROJECT_DIR$/logorec/imageManager/directoryManager.py" />
+        <option value="$PROJECT_DIR$/logorec/classifiers/randomForest.py" />
+        <option value="$PROJECT_DIR$/tests/image_manager_tests.py" />
+        <option value="$PROJECT_DIR$/logorec/imageExtractor/websiteExtractor.py" />
+        <option value="$PROJECT_DIR$/tests/data/features/boundingbox.txt" />
+        <option value="$PROJECT_DIR$/tests/imageManager/mockManager.py" />
+        <option value="$PROJECT_DIR$/tests/imageExtractor/mockExtractor.py" />
+        <option value="$PROJECT_DIR$/tests/features/mockFeature.py" />
+        <option value="$PROJECT_DIR$/tests/classifiers/mockClassifier.py" />
+        <option value="$PROJECT_DIR$/tests/parameters.ini" />
+        <option value="$PROJECT_DIR$/tests/test_random_forest.py" />
+        <option value="$PROJECT_DIR$/tests/test_directory_manager.py" />
+        <option value="$PROJECT_DIR$/tests/test_app.py" />
+        <option value="$PROJECT_DIR$/tests/test_website_extractor.py" />
+        <option value="$PROJECT_DIR$/tests/test_bow.py" />
+        <option value="$PROJECT_DIR$/logorec/features/bow.py" />
+        <option value="$PROJECT_DIR$/logorec/terminal.py" />
+        <option value="$PROJECT_DIR$/logorec/gui.py" />
+        <option value="$PROJECT_DIR$/logorec/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="logorec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logorec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logorec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logorec" type="462c0819:PsiDirectoryNode" />
+              <item name="logorec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logorec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logorec" type="462c0819:PsiDirectoryNode" />
+              <item name="logorec" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logorec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logorec" type="462c0819:PsiDirectoryNode" />
+              <item name="logorec" type="462c0819:PsiDirectoryNode" />
+              <item name="imageExtractor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logorec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logorec" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prototypes" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\git\Logos-Recognition-for-Webshop-Services\software\logorec\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\git\Logos-Recognition-for-Webshop-Services\software\logorec\logorec" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="logorec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daf1fccc-2e8f-4074-899f-e5fd3ed9d45e" name="Default" comment="" />
+      <created>1525764523295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525764523295</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-1088" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32810867" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.225" />
+      <window_info anchor="bottom" id="Statistic" order="12" weight="0.30094042" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" order="4" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.225" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Statistic" order="12" weight="0.30094042" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291536" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" order="4" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32810867" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/logorec/gui.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/logorec/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4335">
+          <caret line="257" column="79" selection-start-line="257" selection-start-column="66" selection-end-line="257" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/parameters.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/terminal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/parameters.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/terminal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="37" lean-forward="true" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/terminal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/terminal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/test.py" />
+    <entry file="file://$PROJECT_DIR$/logorec/lib/element.py" />
+    <entry file="file://$PROJECT_DIR$/logorec/lib/types.py" />
+    <entry file="uml://Python/logorec.lib.classifier.Classifier">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>logorec.lib.classifier.Classifier</OriginalElement>
+          <nodes>
+            <node x="" y="">abc.ABC</node>
+            <node x="" y="">abc.ABCMeta</node>
+            <node x="" y="">logorec.lib.classifier.Classifier</node>
+            <node x="" y="">object</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="99.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Dev/git/Logos-Recognition-for-Webshop-Services/software/logorec/logorec/lib">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Dev/git/Logos-Recognition-for-Webshop-Services/software/logorec/logorec/lib</OriginalElement>
+          <nodes>
+            <node x="670.0" y="160.0">logorec.lib.imageExtractor.ImageExtractor</node>
+            <node x="427.5" y="80.0">abc.ABC</node>
+            <node x="361.75" y="0.0">abc.ABCMeta</node>
+            <node x="480.0" y="160.0">logorec.lib.feature.Feature</node>
+            <node x="274.0" y="160.0">logorec.lib.classifier.Classifier</node>
+            <node x="485.75" y="0.0">object</node>
+            <node x="0.0" y="160.0">logorec.lib.imageManager.ImageManager</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="logorec.lib.imageManager.ImageManager" target="abc.ABC">
+              <point x="0.0" y="-15.0" />
+              <point x="127.0" y="130.0" />
+              <point x="437.125" y="130.0" />
+              <point x="-28.875" y="15.0" />
+            </edge>
+            <edge source="abc.ABC" target="object">
+              <point x="19.25" y="-15.0" />
+              <point x="485.25" y="55.0" />
+              <point x="518.25" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="abc.ABC" target="abc.ABCMeta">
+              <point x="-19.25" y="-15.0" />
+              <point x="446.75" y="55.0" />
+              <point x="413.75" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="logorec.lib.classifier.Classifier" target="abc.ABC">
+              <point x="0.0" y="-15.0" />
+              <point x="367.0" y="140.0" />
+              <point x="456.375" y="140.0" />
+              <point x="-9.625" y="15.0" />
+            </edge>
+            <edge source="logorec.lib.imageExtractor.ImageExtractor" target="abc.ABC">
+              <point x="0.0" y="-15.0" />
+              <point x="796.0" y="130.0" />
+              <point x="494.875" y="130.0" />
+              <point x="28.875" y="15.0" />
+            </edge>
+            <edge source="logorec.lib.feature.Feature" target="abc.ABC">
+              <point x="0.0" y="-15.0" />
+              <point x="565.0" y="140.0" />
+              <point x="475.625" y="140.0" />
+              <point x="9.625" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-119.0" y="-115.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1203334751/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="901" column="6" selection-start-line="901" selection-start-column="6" selection-end-line="901" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/classifiers/tree.py" />
+    <entry file="file://$PROJECT_DIR$/logorec/features/hog.py" />
+    <entry file="file://$PROJECT_DIR$/logorec/imageManager/databaseManager.py" />
+    <entry file="file://$PROJECT_DIR$/logorec/terminal/__init__.py" />
+    <entry file="uml://JavaScript-modules-diagram/C:/Dev/git/Logos-Recognition-for-Webshop-Services/software/logorec/logorec">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/logorec</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="856.0" y="451.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Dev/git/Logos-Recognition-for-Webshop-Services/software/logorec/logorec">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Dev/git/Logos-Recognition-for-Webshop-Services/software/logorec/logorec</OriginalElement>
+          <nodes>
+            <node x="" y="">logorec.imageExtractor.testExtractor.TestExtractor</node>
+            <node x="" y="">logorec.app.App</node>
+            <node x="" y="">logorec.lib.imageManager.ImageManager</node>
+            <node x="" y="">logorec.lib.imageExtractor.ImageExtractor</node>
+            <node x="" y="">object</node>
+            <node x="" y="">logorec.imageExtractor.websiteExtractor.WebsiteExtractor</node>
+            <node x="" y="">logorec.lib.classifier.Classifier</node>
+            <node x="" y="">logorec.imageManager.directoryManager.DirectoryManager</node>
+            <node x="" y="">logorec.classifiers.randomForest.RandomForest</node>
+            <node x="" y="">logorec.features.bow.Bow</node>
+            <node x="" y="">abc.ABC</node>
+            <node x="" y="">logorec.lib.feature.Feature</node>
+            <node x="" y="">abc.ABCMeta</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="819.0" y="431.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/lib/imageManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1203334751/PyQt5/QtWidgets/QApplication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1203334751/PyQt5/QtWidgets/QSizePolicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/imageExtractor/testExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/lib/imageExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/lib/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/lib/feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/data/features/boundingbox.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/features/boundingbox.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/imageManager/directoryManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/imageExtractor/mockExtractor.py" />
+    <entry file="file://$PROJECT_DIR$/tests/imageManager/mockManager.py" />
+    <entry file="file://$PROJECT_DIR$/logorec/classifiers/randomForest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="206" column="26" lean-forward="true" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/features/mockFeature.py" />
+    <entry file="file://$PROJECT_DIR$/tests/classifiers/mockClassifier.py" />
+    <entry file="file://$PROJECT_DIR$/tests/parameters.ini" />
+    <entry file="file://$PROJECT_DIR$/logorec/parameters.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_directory_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="203" column="11" lean-forward="true" selection-start-line="203" selection-start-column="11" selection-end-line="203" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_random_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="107" column="47" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/terminal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="73" column="71" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1461" column="45" selection-start-line="1461" selection-start-column="45" selection-end-line="1461" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/features/bow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_bow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/imageExtractor/websiteExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_website_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="60" column="24" selection-start-line="59" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logorec/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+stages:
+  - build
+  - test
+  - deploy
+  
+compile_project_pdf:
+  stage: build
+  image: aergus/latex
+  script:
+    - cd docs/project
+    - latexmk -pdf -g Logos_Recognition
+    - makeglossaries Logos_Recognition
+    - latexmk -pdf -g Logos_Recognition
+    - makeglossaries Logos_Recognition
+    - latexmk -pdf -g Logos_Recognition
+  artifacts:
+    paths:
+      - "docs/project/*.pdf"
+ 
+compile_project_management_pdf:
+  stage: build
+  image: aergus/latex
+  script:
+    - cd docs/project_management
+    - latexmk -pdf -g Logos_Recognition_Management
+    - makeglossaries Logos_Recognition_Management
+    - latexmk -pdf -g Logos_Recognition_Management
+    - makeglossaries Logos_Recognition_Management
+    - latexmk -pdf -g Logos_Recognition_Management
+  artifacts:
+    paths:
+      - "docs/project_management/*.pdf"
+      
+compile_project_meetings_pdf:
+  stage: build
+  image: aergus/latex
+  script:
+    - cd docs/project_meetings
+    - latexmk -pdf -g Logos_Recognition_Meetings
+    - makeglossaries Logos_Recognition_Meetings
+    - latexmk -pdf -g Logos_Recognition_Meetings
+    - makeglossaries Logos_Recognition_Meetings
+    - latexmk -pdf -g Logos_Recognition_Meetings
+  artifacts:
+    paths:
+      - "docs/project_meetings/*.pdf"
+      
+python_test:
+  stage: test
+  image: python
+  script:
+    - cd software/logorec
+    - pip install -r requirements.txt
+    - cd tests
+    - python -m unittest discover
+    
